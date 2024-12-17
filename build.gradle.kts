@@ -32,6 +32,9 @@ dependencies {
 	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-validation
 	implementation("org.springframework.boot:spring-boot-starter-validation")
 
+	// Bcrypt & Other hashing algorithms
+	// https://mvnrepository.com/artifact/org.springframework.security/spring-security-crypto
+	implementation("org.springframework.security:spring-security-crypto")
 }
 
 kotlin {
